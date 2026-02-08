@@ -223,7 +223,7 @@ export default function App() {
 
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-5xl font-bold text-white mb-2">Ring Puzzle</h1>
+          <h1 className="text-5xl font-bold text-white mb-2">Grammar builder</h1>
           <p className="text-blue-200">Rotate the rings to restore the image</p>
         </div>
 
