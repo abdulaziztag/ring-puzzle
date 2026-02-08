@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function App() {
   const SIZE = 600
@@ -219,6 +220,12 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center p-8">
+      {/* Nav link */}
+      <Link to="/passivgram"
+        className="fixed top-6 left-6 text-blue-200 hover:text-white transition-colors text-sm font-semibold z-10">
+        PassiveGram &rarr;
+      </Link>
+
       <div className="flex flex-col items-center gap-8">
 
         {/* Title */}
